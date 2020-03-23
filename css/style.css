@@ -864,3 +864,20 @@ body:after {
     color: #888888; }
     .footer a:hover {
       color: #000; }
+
+
+/* Media-------------------------------- */
+
+      @media only screen and (max-width: 550px) {
+        .img-face {
+
+          display: none;
+        }
+        .site-blocks-cover, .site-blocks-cover > .container, .site-blocks-cover > .container > .row {
+          /* min-height: 300px; */
+          height: 78vh;
+      }
+      .pt-5, .py-5 {
+        padding-top: 0rem!important;
+    }
+      }
